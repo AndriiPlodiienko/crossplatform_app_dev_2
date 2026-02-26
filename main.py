@@ -2,7 +2,7 @@ import tkinter as tk
 
 
 class ModelApp:
-    CORRECT_CODE = "1256"
+    CORRECT_CODE = "50589"
 
     def __init__(self):
         self.code = ""
@@ -95,6 +95,6 @@ class ControllerApp:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    root.title("PIN MVC App")
+    root.title("PIN MVC App Variant - 5")
     app = ControllerApp(root)
     root.mainloop()
